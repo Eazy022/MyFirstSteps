@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Button deaktivieren und Text ändern
     button.disabled = true;
-    button.textContent = "Wird zurückgesetzt...";
+    button.textContent = "Refreshing...";
 
     // Nach 3 Sekunden zurücksetzen
     setTimeout(() => {
