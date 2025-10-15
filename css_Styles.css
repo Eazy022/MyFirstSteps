@@ -4,9 +4,25 @@
       font-family: Arial, sans-serif;
     }
 
+    .layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1;
+  position: relative;
+  background-color: rgb(79, 21, 134);
+}
+
+
+
+
     button {
       background-color: lawngreen;
-      color: black;
+      color: rgb(7, 0, 0);
+      ;
     }
 
     h1 {
