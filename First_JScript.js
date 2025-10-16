@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
   button.addEventListener("click", function () {
     // Zeige Datum
-    output.innerHTML = new Date();
+ 
     const now = new Date()
   const formatted = `${now.getDate()}.
-                     ${now.getMonth() + 1}.
+                     ${now.getMonth()}.
                      ${now.getFullYear()} -
-                     ${now.getHours()}:
+                     ${now.getHours() }:
                      ${now.getMinutes()}
                      :${now.getSeconds()}`
   output.innerHTML = formatted; 
