@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
  
     const now = new Date()
   const formatted = `${now.getDate()}.
-                     ${now.getMonth()}.
+                     ${String(now.getMonth()).padStart(2, 0)}.
                      ${now.getFullYear()} -
                      ${now.getHours() }:
-                     ${now.getMinutes()}
+                     ${String(now.getMinutes()).padStart(2, 0)}
                      :${now.getSeconds()}`
   output.innerHTML = formatted; 
 
